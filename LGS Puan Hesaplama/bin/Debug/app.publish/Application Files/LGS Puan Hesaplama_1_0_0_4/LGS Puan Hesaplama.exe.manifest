@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LGS Puan Hesaplama.exe" version="1.0.0.4" publicKeyToken="9bbf44a0c78a6fa5" language="tr-TR" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="lgspuanlogo_tiM_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LGS Puan Hesaplama" version="1.0.0.0" publicKeyToken="9BBF44A0C78A6FA5" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LGS Puan Hesaplama.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetim düzeyini değiştirmek istiyorsanız
+          requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması’nı
+         kullanmak istiyorsanız requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LGS Puan Hesaplama.exe" size="118704">
+      <assemblyIdentity name="LGS Puan Hesaplama" version="1.0.0.0" publicKeyToken="9BBF44A0C78A6FA5" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>kZqE8LonnuekeZ4HyVEYLzsAqYY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="lgspuanlogo_tiM_icon.ico" size="45966">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>weCZE3rcEqWzE8qWsK/gwcldv38=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ihsan\Administrator" issuerKeyHash="07fd20bc518c4aac4f94cf9d2ffdf85cd216dee9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>h1SYixr4RiCnX17EToHQUzl+srs=</DigestValue></Reference></SignedInfo><SignatureValue>1fmzF5/nth5nnUmHkUXq5QzeRio3AeWl23IdsPQJ3ZRm4eoinhMQK7jhWbT5SK9D+tqMQaUdx7TY8h2GRZZr4J17FdPpmtkwHQpgsYWcfUwcCRM3mrys7qa2uZQLlCrnzTXeGr8pow3OvDn/nf0uIL02Fvr+DM6vcue57bWmths=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3UcPz5VDMipIW1yk06S60nrwDJrXvk/PSn72RY4zCUAcoP9d6oNGzq6aRgZ5McAsH3DXeWjSCICaKw6pcyy7esN9PZDVKOLwhaZOsWfVTjNvd5VaanKGf4qbK8yVT5RF+VR0Ewzg+/s4DsHitN1tcqFPg4aBQgxU3vydrzF5aVE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bbb27e3953d0814ec45e5fa72046f81a8b985487" Description="" Url=""><as:assemblyIdentity name="LGS Puan Hesaplama.exe" version="1.0.0.4" publicKeyToken="9bbf44a0c78a6fa5" language="tr-TR" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ihsan\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>izyojc1w24S1owU3S02H/DgtX9w=</DigestValue></Reference></SignedInfo><SignatureValue>wskOjnPTtHc1+Y24V0C227H/zFPygrLZndvpX/212K8DEQ2C5VNDm0lDQ9benquRQ6n+HTUQTc9Pp8sO/RIDbVroTyyv/7HCOfelsrUZWGfCnFheOoL+n8tNSM9XoTboqEUNRUkWHprxa8bFKqnkguweO3OecdWV66Y218QsbAA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3UcPz5VDMipIW1yk06S60nrwDJrXvk/PSn72RY4zCUAcoP9d6oNGzq6aRgZ5McAsH3DXeWjSCICaKw6pcyy7esN9PZDVKOLwhaZOsWfVTjNvd5VaanKGf4qbK8yVT5RF+VR0Ewzg+/s4DsHitN1tcqFPg4aBQgxU3vydrzF5aVE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQH9rKBoJH65dAzLeEnIXXZDANBgkqhkiG9w0BAQUFADAxMS8wLQYDVQQDHiYAaQBoAHMAYQBuAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjAeFw0xOTA3MDMxNDQ2MjJaFw0yMDA3MDIyMDQ2MjJaMDExLzAtBgNVBAMeJgBpAGgAcwBhAG4AXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdRw/PlUMyKkhbXKTTpLrSevAMmte+T89KfvZFjjMJQByg/13qg0bOrppGBnkxwCwfcNd5aNIIgJorDqlzLLt6w309kNUo4vCFpk6xZ9VOM293lVpqcoZ/ipsrzJVPlEX5VHQTDOD7+zgOweK03W1yoU+DhoFCDFTe/J2vMXlpUQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAAuiV/K5W1gfiB78QczX1B7PV1/ABREsw7xSM1eL0o1rWajyCv8W7TpUhH/BhZXp2veWni8Og/dL2/2Kww10FQ0vKWa6ttWm1DBMBd1nzZKRpw/bwtzgtk4v6RRfm2ACY6MqIyWNI04HAnUlsiSgJW5aYDL0e7uWsG1v1aI3CArG</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

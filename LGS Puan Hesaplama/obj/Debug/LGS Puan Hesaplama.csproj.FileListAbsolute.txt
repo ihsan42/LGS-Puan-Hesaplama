@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\bin\Debug\LGS Puan Hesaplama.exe
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\bin\Debug\LGS Puan Hesaplama.pdb
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\obj\Debug\LGS Puan Hesaplama.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\obj\Debug\LGS_Puan_Hesaplama.Form1.resources
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\obj\Debug\LGS_Puan_Hesaplama.Properties.Resources.resources
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\obj\Debug\LGS Puan Hesaplama.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\obj\Debug\LGS Puan Hesaplama.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\obj\Debug\LGS Puan Hesaplama.exe
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\obj\Debug\LGS Puan Hesaplama.pdb
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\bin\Debug\LGS Puan Hesaplama.exe.manifest
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\bin\Debug\LGS Puan Hesaplama.application
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\obj\Debug\LGS Puan Hesaplama.exe.manifest
+C:\Users\Administrator\source\repos\LGS Puan Hesaplama\LGS Puan Hesaplama\obj\Debug\LGS Puan Hesaplama.application
